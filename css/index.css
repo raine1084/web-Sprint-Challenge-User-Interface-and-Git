@@ -30,6 +30,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    
+    
+    
 }
 ol, ul {
 	list-style: none;
@@ -55,16 +58,17 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
     
-}
-.logo{
-    display: flex;
+    
+    
+    
     
 }
+
 .links{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    
 }
 .top-pic{
     margin: 3%;
@@ -126,9 +130,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.Box-1{
-    color: yellow;
-}
+
 
 
 .bottom-content {
@@ -162,4 +164,61 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+ html, body{
+     line-height: 1;
+     height: 100vh;
+     position: absolute;
+     width: 100%;
+     
+     
+ }   
+
+
+    
+}
+.logo{
+    margin-left: 5%;
+    width: 20%;
+    display: flex;
+    align-items: baseline;
+}
+
+.links{
+    display: flex;
+    
+    justify-content: space-between;
+    margin-left: 15%;
+    width: 25%;
+    
+}
+.top-pic{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+h2{
+ display: flex;
+ justify-content: flex-start;
+ margin-left: 5%;
+ margin-top: 2%;
+}
+.p1{
+    text-align: justify;
+    width: 50%;
+    
+    font-size: 20px;
+    margin-bottom: 3%;
+    border-bottom: 1px dotted black;
+}
+.about-pic{
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+
+.p2{
+    text-align: justify;
+
 }
