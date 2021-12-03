@@ -172,13 +172,15 @@ footer nav a {
      height: 100vh;
      position: absolute;
      width: 100%;
+     transform: scale(90%);
+     display: block;
      
      
  }   
 
 
     
-}
+
 .logo{
     margin-left: 5%;
     width: 20%;
@@ -200,11 +202,11 @@ footer nav a {
     justify-content: flex-start;
 }
 h2{
- display: flex;
- justify-content: flex-start;
- margin-left: 5%;
+ 
+ margin-left: 2%;
  margin-top: 2%;
 }
+
 .p1{
     text-align: justify;
     width: 50%;
@@ -216,9 +218,52 @@ h2{
 .about-pic{
     margin-top:5px;
     margin-bottom: 10px;
+    margin-left: 2%;
 }
 
 .p2{
-    text-align: justify;
+    
+    width: 10%;
+    font-size: 20px;
+    inline-size: 400px;
+    
 
+}
+
+button{
+    background-color: pink;
+    border-radius: 20%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.img3{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 430px;
+}
+
+.work{
+    
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    
+    position: relative;
+    bottom: 430px;
+}
+
+.p3{
+    
+    
+    
+    
+}
+
+.button2{
+    display: flex;
+    justify-content: center;
+    
 }
