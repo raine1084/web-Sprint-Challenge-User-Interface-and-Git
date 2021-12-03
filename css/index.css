@@ -30,6 +30,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    
+    
+    
 }
 ol, ul {
 	list-style: none;
@@ -54,6 +57,21 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
+    
+    
+    
+    
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.top-pic{
+    margin: 3%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,6 +82,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    
 }
 
 .container {
@@ -104,13 +123,15 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background-color: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +164,106 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+ html, body{
+     line-height: 1;
+     height: 100vh;
+     position: absolute;
+     width: 100%;
+     transform: scale(90%);
+     display: block;
+     
+     
+ }   
+
+
+    
+
+.logo{
+    margin-left: 5%;
+    width: 20%;
+    display: flex;
+    align-items: baseline;
+}
+
+.links{
+    display: flex;
+    
+    justify-content: space-between;
+    margin-left: 15%;
+    width: 25%;
+    
+}
+.top-pic{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+h2{
+ 
+ margin-left: 2%;
+ margin-top: 2%;
+}
+
+.p1{
+    text-align: justify;
+    width: 50%;
+    
+    font-size: 20px;
+    margin-bottom: 3%;
+    border-bottom: 1px dotted black;
+}
+.about-pic{
+    margin-top:5px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+}
+
+.p2{
+    
+    width: 10%;
+    font-size: 20px;
+    inline-size: 400px;
+    
+
+}
+
+button{
+    background-color: pink;
+    border-radius: 20%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.img3{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 430px;
+}
+
+.work{
+    
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    
+    position: relative;
+    bottom: 430px;
+}
+
+.p3{
+    
+    
+    
+    
+}
+
+.button2{
+    display: flex;
+    justify-content: center;
+    
 }
