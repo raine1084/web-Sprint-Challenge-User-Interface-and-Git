@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 .logo{
     display: flex;
@@ -65,6 +66,9 @@ html, body {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+.top-pic{
+    margin: 3%;
+}
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -74,6 +78,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    
 }
 
 .container {
@@ -114,12 +119,15 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background-color: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.Box-1{
+    color: yellow;
 }
 
 
