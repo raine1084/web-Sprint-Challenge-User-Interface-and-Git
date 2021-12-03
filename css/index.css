@@ -55,6 +55,16 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+.logo{
+    display: flex;
+    
+}
+.links{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -111,6 +121,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
